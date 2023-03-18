@@ -6,11 +6,11 @@
 
 #### Building image
 ```
-docker build . -t julianowicka/docker-image
+docker build . -t julianowicka/dockerizing-web-app
 ```
 #### Runt the image
 ```
-docker run -p 9000:8080 -d julianowicka/docker-image
+docker run -p 9000:8080 -d julianowicka/dockerizing-web-app
 ```
 #### Shut down the image
 ```
